@@ -20,7 +20,6 @@ Client: the one that buys the product.
  */
 
 import exceptions.AutoCloseableNoResource;
-import finalClasess.PayingRates;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -34,7 +33,6 @@ public class Main {
         //Instantiations of the different implemented classes after the implementation of abstract
 
         LOGGER.info("Hello and welcome to hardware store!! \n");
-
         //classes
         //humans or companies
         BigClient bigClient=new BigClient("Edward Cullen","Edward@gmail.com","+224586634");

@@ -1,5 +1,5 @@
-16:07:33.789 [main] ERROR Employee - exceptions.LongEmployeeNameException: The name is too long, pleas make it less than 20 characters.
-16:07:33.790 [main] ERROR Employee - exceptions.NumberInNamesException: The employee name has a number, please correct it.
-16:07:33.790 [main] ERROR Employee - exceptions.EmailException: Please only use a @gmail.com email.
-16:07:33.792 [main] ERROR Employee - exceptions.PhoneNumberException: The phone number has 9 digits and should be 8 digits
-16:07:33.793 [main] ERROR Employee - exceptions.EmployeeSpecialityException: The specialitycleaner doesn't exist, please enter a valid one: seller or deposit.
+16:43:14.821 [main] ERROR Employee - exceptions.LongEmployeeNameException: The name is too long, pleas make it less than 20 characters.
+16:43:14.822 [main] ERROR Employee - exceptions.NumberInNamesException: The employee name has a number, please correct it.
+16:43:14.822 [main] ERROR Employee - exceptions.EmailException: Please only use a @gmail.com email.
+16:43:14.825 [main] ERROR Employee - exceptions.PhoneNumberException: The phone number has 9 digits and should be 8 digits
+16:43:14.826 [main] ERROR Employee - exceptions.EmployeeSpecialityException: The specialitycleaner doesn't exist, please enter a valid one: seller or deposit.

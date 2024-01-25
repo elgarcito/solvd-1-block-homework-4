@@ -1,5 +1,5 @@
-import abstractClasses.Product;
-import createdInterfaces.*;
+import abstractclasses.Product;
+import createdinterfaces.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
