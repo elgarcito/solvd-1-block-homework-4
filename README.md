@@ -61,6 +61,10 @@ The implementation could be seen in the main method example.
 Log4j was implemented. The configuration file is in the main folder with the name:
 * log4j2.xml
 
+The console messages from previous exercises were deleted to see
+the console message for this exercise only.
+The objects created were kept to be used in this exercise.
+
 The configuration saves all warn and error messages in the HardwareStore.log.
 All System.out.println() has been replaced with LOGGER.info(),LOGGER.warn()
 or LOGGER.error().The only ones that are keep are the used to add white lines.
