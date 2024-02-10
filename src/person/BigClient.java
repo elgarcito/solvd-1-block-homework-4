@@ -1,4 +1,6 @@
-import abstractclasses.Person;
+package person;
+
+import abstract_classes.Person;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

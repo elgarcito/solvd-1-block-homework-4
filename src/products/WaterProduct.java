@@ -1,4 +1,6 @@
-import abstractclasses.Product;
+package products;
+
+import abstract_classes.Product;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

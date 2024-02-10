@@ -4,24 +4,28 @@ Hardware store
 In this project, we have a hardware store that sells different products.
 We represent this product using classes.
 Now we can se the classes and some examples of the kind of product that they are going to content:
-1-ConstructionProduct: nails, screws, cement, sand etc. we sell it by it units, for ex.
+1-products.ConstructionProduct: nails, screws, cement, sand etc. we sell it by it units, for ex.
 10 kg of sand
-2-ElectricProduct: cables, electric tape, socket outlet,power drills, hole puncher, etc.
-3-HandTool: hammer, hand saw
-4-GardenProduct:shovel, plant pot
-5-HouseholdItem: kettle, broom, brush
-6-WaterProduct:water filter, water pump
-7-GasProduct: gas valve,etc
+2-products.ElectricProduct: cables, electric tape, socket outlet,power drills, hole puncher, etc.
+3-products.HandTool: hammer, hand saw
+4-products.GardenProduct:shovel, plant pot
+5-products.HouseholdItem: kettle, broom, brush
+6-products.WaterProduct:water filter, water pump
+7-products.GasProduct: gas valve,etc
 
 Also, we have:
-Employee: the employee of the store.
-Supplier: the one that sells the product.
+person.Employee: the employee of the store.
+person.Supplier: the one that sells the product.
 Client: the one that buys the product.
  */
 
 import exceptions.AutoCloseableNoResource;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import person.BigClient;
+import person.Employee;
+import person.Supplier;
+import products.*;
 
 
 public class Main {
@@ -46,20 +50,20 @@ public class Main {
         ElectricProduct lightBulb = new ElectricProduct("Light bulb 2", "led light bulb");
         lightBulb.setPower(10);
         ElectricProduct lightBulb2 = new ElectricProduct("Light bulb 1", "led light bulb");
-        //Creating GardenProduct Objects
+        //Creating products.GardenProduct Objects
         GardenProduct gardenScissors = new GardenProduct("Big scissors", "Big size scissors to cut grass", false);
         GardenProduct gardenScissors1 = new GardenProduct("Medium scissors", "Medium size scissors to cut grass", false);
         GardenProduct gardenScissors2 = new GardenProduct("Small scissors", "Small size scissors to cut grass", false);
-        //Creating GasProduct Objects
+        //Creating products.GasProduct Objects
         GasProduct gasBurner = new GasProduct("Gas Burner", "Gas kitchen burner");
         GasProduct gasBurner2 = new GasProduct("Gas Burner", "Gas kitchen burner");
         gasBurner2.setStock(8);
-        //Creating a HandTool Objects
+        //Creating a products.HandTool Objects
         HandTool handSaw=new HandTool("Hand saw","Small hand saw");
-        //Creating HouseholdItem Objects
+        //Creating products.HouseholdItem Objects
         HouseholdItem broom =new HouseholdItem("Big broom","Industrial boom");
         HouseholdItem broom1 =new HouseholdItem("Small broom","House boom");
-        //Creating a WaterProduct Object
+        //Creating a products.WaterProduct Object
         WaterProduct pump1=new WaterProduct("Excelsior pump","20 hp power pump");
 
 
@@ -84,7 +88,7 @@ public class Main {
         jackLalein.checkEmployeeData();
         System.out.println();
         jackLalein.setSpeciality("seller");
-        //All Employee correct data result
+        //All person.Employee correct data result
         jackLalein.checkEmployeeData();
         System.out.println();
         //Try-catch with resource example

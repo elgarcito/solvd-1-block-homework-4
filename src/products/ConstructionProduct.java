@@ -1,4 +1,6 @@
-import abstractclasses.RawMaterial;
+package products;
+
+import abstract_classes.RawMaterial;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
